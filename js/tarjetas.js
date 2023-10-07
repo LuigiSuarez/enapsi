@@ -3,6 +3,14 @@ let animacionEjecutada = false;
 
 // Función para animar las cartas
 function animarCartas() {
+  // Verificar si es un dispositivo móvil
+  const esDispositivoMovil = window.innerWidth <= 768; // Ajusta el ancho según tu criterio
+
+  // Si es un dispositivo móvil, no ejecutar la animación
+  if (esDispositivoMovil) {
+    return;
+  }
+
   const cartas = document.querySelectorAll('.carta');
 
   // Define la animación de entrada
@@ -34,3 +42,8 @@ function animarCartas() {
 
 // Llama a la función de animación cuando se carga la página
 window.addEventListener('load', animarCartas);
+
+
+
+
+

@@ -68,3 +68,9 @@
     display: block; /* Cambio de display del subtitulo al pasar el cursor sobre .curso-carta */
 }
 /* carta */
+@media(max-width:1024px){
+    .cursos__subtitulo{
+        padding: 1rem;
+    }
+    
+}

@@ -2,11 +2,12 @@
     .menu {
         display: none;
         flex-direction: column;
-        background-color: #333; /* Cambia el color de fondo según tus preferencias */
+        background-color: rgba(0,0,0,30%); /* Cambia el color de fondo según tus preferencias */
         position: absolute;
-        top: 50px; /* Ajusta la posición según tus necesidades */
+        top: 62px; /* Ajusta la posición según tus necesidades */
         left: 0;
         width: 100%;
+        backdrop-filter: blur(10px);
     }
 
     .menu.active {
@@ -14,12 +15,14 @@
     }
 
     .menu__item {
-        padding: 10px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: 2rem;
         text-align: center;
     }
 
     .menu__item:hover {
-        background-color: #444; /* Cambia el color de fondo en hover según tus preferencias */
+        background-color: white;   /* Cambia el color de fondo en hover según tus preferencias */
     }
 }
 

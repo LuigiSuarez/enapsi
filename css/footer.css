@@ -87,6 +87,7 @@
     }
 
     .footer__logo{
+        margin-top: 2rem;
        display: none;
     } 
     #logo__tablet{
