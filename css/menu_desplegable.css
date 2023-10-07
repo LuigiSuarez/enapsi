@@ -1,0 +1,53 @@
+@media screen and (max-width: 1024px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+        background-color: #333; /* Cambia el color de fondo según tus preferencias */
+        position: absolute;
+        top: 50px; /* Ajusta la posición según tus necesidades */
+        left: 0;
+        width: 100%;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+    .menu__item {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .menu__item:hover {
+        background-color: #444; /* Cambia el color de fondo en hover según tus preferencias */
+    }
+}
+
+/* Agrega un botón de hamburguesa para desplegar el menú */
+.menu-toggle {
+    
+    display: none;
+    cursor: pointer;
+}
+
+/* Estilos para el icono de hamburguesa */
+
+.toogle__icon{
+    font-size: 1.5rem;
+}
+/* Media query para mostrar el botón de hamburguesa en dispositivos móviles */
+@media screen and (max-width: 1024px) {
+    .menu-toggle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+}
+
+/* Estilos para el menú desplegable en dispositivos móviles en modo "activo" */
+@media screen and (max-width: 1024px) {
+    .menu.active {
+        display: flex;
+    }
+}

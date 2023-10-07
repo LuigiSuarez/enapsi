@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/generales.css" />
+    <link rel="stylesheet" href="./css/navegacion.css" />
+    <link rel="stylesheet" href="./css/menu_desplegable.css">
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/servicios.css" />
+    <link rel="stylesheet" href="./css/cursos.css" />
+    <link rel="stylesheet" href="./css/sobre_nosotros.css">
+    <link rel="stylesheet" href="./css/contacto.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+    <title>Enapsi</title>
+  </head>
+  <body>
+    <header class="container container--header">
+      <!-- navbar -->
+      <div class="navegacion">
+        <nav class="container-navegacion">
+          <img class="logo" src="./img/Logo.png" alt="logo" />
+          <ul class="menu">
+            <a class="menu__item" href="">Servicios</a>
+            <a class="menu__item" href="">Cursos</a>
+            <a class="menu__item" href="">Nosotros</a>
+          </ul>
+          <!-- icono para menu desplegable -->
+          <div class="menu-toggle">
+            <i class="fa-solid fa-bars toogle__icon"></i>
+        </div>
+        </nav>
+      </div>
+
+      <!-- header  -->
+      <section class="container-header">
+        <div class="texto">
+          <h1 class="texto__titulo">
+            Somos tus aliados más sólidos para impulsar tu desarrollo
+          </h1>
+          <h3 class="texto__subtitulo">
+            Bienvenido a ENAPSI, tu hogar de crecimiento personal y profesional
+          </h3>
+        </div>
+        <div class="container-imagenes">
+          <img
+            class="header__imagen"
+            id="header__imagen"
+            src="img/headerimagen.png"
+            alt="escuela_nacional_imagen"
+          />
+          <img
+            class="header__imagen-arriba"
+            id="header__imagen-arriba"
+            src="img/Toga2.png"
+            alt=""
+          />
+          <img
+            class="header__imagen-arriba-derecha"
+            id="header__imagen-arriba-derecha"
+            src="img/Toga2.png"
+            alt=""
+          />
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="container servicios">
+        <h2 class="servicios__titulos">Servicios</h2>
+        <div class="container-cartas">
+          <!-- primera carta -->
+          <div class="carta">
+            <i class="fa-solid fa-graduation-cap carta__icono"></i>
+            <h6 class="carta__titulo">Formación
+              <br> y <br> Capacitación</h6>
+            <p class="carta__texto">
+              Adquiere conocimientos fundamentales en psicología clínica
+            </p>
+            <p class="carta__texto">
+              Consigue aplicar las diversas técnicas de tratamiento de acuerdo
+              con las necesidades y características del paciente.
+            </p>
+          </div>
+          <!-- segunda carta -->
+
+          <div class="carta carta--verde">
+            <i class="fa-solid fa-user carta__icono carta__icono--verde"></i>
+        
+            <h6 class="carta__titulo carta__titulo--verde">
+              Supervisión y Entrenamiento Clínico
+            </h6>
+            <p class="carta__texto">
+              Perfeciona habilidades de observación y análisis en la práctica clínica en un entorno seguro y controlado
+
+            </p>
+            <p class="carta__texto">
+              Mejora tus habilidades en psicoterapia y asegura el bienestar de los pacientes.
+            </p>
+          </div>
+
+          <!-- tercera carta -->
+          <div class="carta">
+            <i class="fa-solid fa-laptop  carta__icono"></i>
+            <h6 class="carta__titulo">Recursos para el Desarrollo Profesional</h6>
+         
+            <p class="carta__texto">
+              Adquiere habilidades esenciales en la psicoterapia, así como la actualización en nuevas tendencias y prácticas de la industria.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container cursos">
+        <h2 class="cursos__titulo">Cursos</h2>
+        <p class="cursos__subtitulo">
+          Conoce más de nuestras formaciones en psicoterapia basada en
+          evidencias
+        </p>
+        <div class="container-cartas">
+          <!-- tarjeta -->
+          <div class="curso-carta">
+            <img
+              class="curso-carta__imagen"
+              src="./img/cursoimagen1.png"
+              alt=""
+            />
+            <h6 class="curso-carta__titulo">
+              Psicoterapeuta Cognitivo Conductual
+            </h6>
+            <p class="curso-carta__subtitulo">
+              Duración de la formación: 13 meses
+              Modalidad: Virtual
+            </p>
+          </div>
+          <!-- tarjeta -->
+          <div class="curso-carta">
+            <img
+              class="curso-carta__imagen"
+              src="./img/cursoimagen2.png"
+              alt=""
+            />
+            <h6 class="curso-carta__titulo">
+              Terapia de Aceptación y Compromiso
+            </h6>
+            <p class="curso-carta__subtitulo">
+              Duración de la formación: 10 meses Modalidad: Virtual
+            </p>
+          </div>
+          <!-- tarjeta -->
+          <div class="curso-carta">
+            <img
+              class="curso-carta__imagen"
+              src="./img/cursoimagen3.png"
+              alt=""
+            />
+            <h6 class="curso-carta__titulo">
+              Terapia de Aceptación y Compromiso
+            </h6>
+            <p class="curso-carta__subtitulo">
+              Duración de la formación: 6 meses Modalidad: Virtual
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container sobre-nosotros">
+        <!-- container general 90% -->
+        <div class="container-sobre-nosotros">
+          <!-- texto -->
+          <div class="sobre-nosotros__texto">
+            <h2 class="sobre-nosotros__titulo"> Sobre Nosotros</h2>
+            <p class="sobre-nosotros__parrafo">
+                Somos una escuela de formación en cursos de psicoterapia que
+                une la iniciativa del trabajo coordinado de dirigentes de múltiples
+                organizaciones.
+                <br>
+                Motivados por la problemática social de violencia y la necesidad
+                de atender problemas relacionados con la salud mental en el
+                Perú fundamos ENAPSI.
+                <br>
+                Desde nuestros inicios, nos enfocamos en ofrecer programas de
+                alta calidad, impartidos por profesionales altamente capacitados
+                y comprometidos con la formación de nuevos psicólogos y
+                terapeutas.
+                <br>
+                La institución se mantiene a la vanguardia en nuevas tendencias
+                y avances en el campo de la psicoterapia, para actualizar y
+                mejorar constantemente nuestros programas.
+            </p>
+          </div>
+          <!-- imagen -->
+          <div class="sobre-nosotros__imagen-contenedor">
+            <img class="sobre-nosotros__imagen" src="img/imagenNosotros.png" alt="" />
+          </div>
+        </div>
+
+      </section>
+
+      
+      
+    </main>
+
+    <footer class="footer container">
+
+
+      <img class="footer__logo" id="logo__tablet" src="img/LogoColor.png" alt="">
+
+      <div class="footer__menu">
+        <a class="footer__menu-item" href="">
+          Sobre ENAPSI
+        </a>
+
+        <a class="footer__menu-item" href="">
+          Políticas de privacidad
+        </a>
+
+        <a class="footer__menu-item" href="">
+          Políticas de cookies
+        </a>
+        <a class="footer__menu-item" href="">
+          Términos y condiciones
+        </a>
+        <a class="footer__menu-item" href="">
+          Libro de reclamaciones
+        </a>
+      </div>
+      <!-- Logo -->
+      <div class="footer__logo-social">
+        <div class="footer__logo-container">
+          <img class="footer__logo" src="img/LogoColor.png" alt="">
+          <p class="footer__logo-texto" >Copyright © ENAPSI 2023</p>
+        </div>
+       
+        <div class="social-media">
+            <i class="fa-brands fa-facebook-f social-media__item"></i>
+            <i class="fa-brands fa-whatsapp social-media__item""></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/c8f262e966.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="js/paralax.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
+
+  <script src="js/tarjetas.js"></script>
+</html>
