@@ -7,7 +7,7 @@
         top: 62px; /* Ajusta la posición según tus necesidades */
         left: 0;
         width: 100%;
-        backdrop-filter: blur(10px);
+       
     }
 
     .menu.active {
