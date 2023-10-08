@@ -2,12 +2,12 @@
     .menu {
         display: none;
         flex-direction: column;
-        background-color: rgba(0, 0, 0, 0.4); /* Cambia el color de fondo según tus preferencias */
+        background-color: var(--color-secundario); 
         position: absolute;
         top: 62px; /* Ajusta la posición según tus necesidades */
         left: 0;
         width: 100%;
-        backdrop-filter: blur(10px);
+       
        
     }
 
