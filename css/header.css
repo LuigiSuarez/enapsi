@@ -12,6 +12,10 @@
     align-items: center;
 }
 
+.logo__container{
+    display: flex;
+
+}
 
 .container-imagenes{
     position: relative;

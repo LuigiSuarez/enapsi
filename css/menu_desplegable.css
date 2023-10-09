@@ -2,7 +2,7 @@
     .menu {
         display: none;
         flex-direction: column;
-        background-color: var(--color-secundario); 
+        background-color: black; 
         position: absolute;
         top: 62px; /* Ajusta la posición según tus necesidades */
         left: 0;

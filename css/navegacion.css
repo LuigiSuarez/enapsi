@@ -10,7 +10,7 @@
     justify-content: center;
     max-width: 100%;
     width: 100%;
-    background: var(--color-secundario);
+    background: rgba(0,0, 0, 0.3);
     position: fixed;
     top: 0;
     z-index: 5;
@@ -59,3 +59,8 @@
      color: var(--color-principal-intenso);
 } 
 
+@media screen and (max-width: 1024px) {
+    .navegacion {
+        background: black; /* Cambia el fondo a negro en pantallas de 1024px o menos */
+    }
+}

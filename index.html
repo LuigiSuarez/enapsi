@@ -26,11 +26,13 @@
       <!-- navbar -->
       <div class="navegacion">
         <nav class="container-navegacion">
-          <img class="logo" src="./img/Logo.png" alt="logo" />
+          <a class="logo__container" href="index.html">
+            <img class="logo" src="./img/Logo.png" alt="logo" />
+          </a>
           <ul class="menu">
-            <a class="menu__item" href="">Servicios</a>
-            <a class="menu__item" href="">Cursos</a>
-            <a class="menu__item" href="">Nosotros</a>
+            <a class="menu__item" href="#servicios">Servicios</a>
+            <a class="menu__item" href="#cursos">Cursos</a>
+            <a class="menu__item" href="#nosotros">Nosotros</a>
           </ul>
           <!-- icono para menu desplegable -->
           <div class="menu-toggle">
@@ -40,7 +42,7 @@
       </div>
 
       <!-- header  -->
-      <section class="container-header">
+      <section class="container-header" id="header">
         <div class="texto">
           <h1 class="texto__titulo">
             Somos tus aliados más sólidos para impulsar tu desarrollo
@@ -73,7 +75,7 @@
     </header>
 
     <main>
-      <section class="container servicios">
+      <section class="container servicios" id="servicios">
         <h2 class="servicios__titulos">Servicios</h2>
         <div class="container-cartas">
           <!-- primera carta -->
@@ -91,11 +93,12 @@
           </div>
           <!-- segunda carta -->
 
-          <div class="carta carta--verde">
-            <i class="fa-solid fa-user carta__icono carta__icono--verde"></i>
+          <div class="carta carta--verde" >
+            <i class="fa-solid fa-chalkboard-user carta__icono carta__icono--verde"></i>
+            
         
             <h6 class="carta__titulo carta__titulo--verde">
-              Supervisión y Entrenamiento Clínico
+              Investigacion y Desarrollo
             </h6>
             <p class="carta__texto">
               Perfeciona habilidades de observación y análisis en la práctica clínica en un entorno seguro y controlado
@@ -108,8 +111,8 @@
 
           <!-- tercera carta -->
           <div class="carta">
-            <i class="fa-solid fa-laptop  carta__icono"></i>
-            <h6 class="carta__titulo">Recursos para el Desarrollo Profesional</h6>
+            <i class="fa-solid fa-person-chalkboard carta__icono"></i>
+            <h6 class="carta__titulo">Divulgacion Cientifica</h6>
          
             <p class="carta__texto">
               Adquiere habilidades esenciales en la psicoterapia, así como la actualización en nuevas tendencias y prácticas de la industria.
@@ -118,7 +121,7 @@
         </div>
       </section>
 
-      <section class="container cursos">
+      <section class="container cursos" id="cursos">
         <h2 class="cursos__titulo">Cursos</h2>
         <p class="cursos__subtitulo">
           Conoce más de nuestras formaciones en psicoterapia basada en
@@ -139,6 +142,9 @@
               Duración de la formación: 13 meses
               Modalidad: Virtual
             </p>
+
+            <a class="curso__boton" href="">Ver Mas</a>
+
           </div>
           <!-- tarjeta -->
           <div class="curso-carta">
@@ -153,6 +159,8 @@
             <p class="curso-carta__subtitulo">
               Duración de la formación: 10 meses Modalidad: Virtual
             </p>
+
+            <a class="curso__boton" href="">Ver Mas</a>
           </div>
           <!-- tarjeta -->
           <div class="curso-carta">
@@ -167,11 +175,14 @@
             <p class="curso-carta__subtitulo">
               Duración de la formación: 6 meses Modalidad: Virtual
             </p>
+
+            <a class="curso__boton" href="">Ver Mas</a>
+
           </div>
         </div>
       </section>
 
-      <section class="container sobre-nosotros">
+      <section class="container sobre-nosotros" id="nosotros">
         <!-- container general 90% -->
         <div class="container-sobre-nosotros">
           <!-- texto -->
@@ -253,7 +264,7 @@
   
   <script src="js/paralax.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
-  
+  <script src="js/compensacion.js"></script>
   <script src="js/tarjetas.js"></script>
   <script src="js/menu.js"></script>
 </html>

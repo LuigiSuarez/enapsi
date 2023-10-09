@@ -4,7 +4,7 @@ let animacionEjecutada = false;
 // Función para animar las cartas
 function animarCartas() {
   // Verificar si es un dispositivo móvil
-  const esDispositivoMovil = window.innerWidth <= 768; // Ajusta el ancho según tu criterio
+  const esDispositivoMovil = window.innerWidth <= 1024; // Ajusta el ancho según tu criterio
 
   // Si es un dispositivo móvil, no ejecutar la animación
   if (esDispositivoMovil) {
