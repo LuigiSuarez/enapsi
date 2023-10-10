@@ -1,0 +1,19 @@
+.whatsapp__container{
+    position: relative;
+}
+
+.whatsapp__link{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+.whatsapp__img{
+    height: 50px;
+    width: 50px;
+}
+
+
+
+
+
