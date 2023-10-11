@@ -1,0 +1,8 @@
+
+.cursofocus {
+    background-image: url(/img/Logo\ Final\ Version-20.png);
+    background-color: var(--color-principal-intenso);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
