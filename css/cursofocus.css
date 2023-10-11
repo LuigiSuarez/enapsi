@@ -31,7 +31,7 @@
 
 
 .cursofocus__texto{
-
+    
     min-height: auto;
     display: flex;
     flex-direction: column;
@@ -100,6 +100,13 @@
 }
 
 @media screen and (max-width: 1024px) {
+    .portada{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        margin-left: 0;
+       
+        
+    }
     
 .cursofocus {
    flex-direction: column;
@@ -143,10 +150,12 @@
     font-family: var(--fuente-principal);
     font-weight: bold;
     font-size: 1.2rem;
+    line-height: 1.5;
 
 }
 
 .cursofocus__descargar{
+    margin-top: 2rem;
     text-align: center;
     align-self: flex-end;
    width: 100%;
