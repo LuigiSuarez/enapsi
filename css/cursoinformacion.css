@@ -1,0 +1,70 @@
+.cursoinformacion{
+    background-color: var(--color-principal-intenso);
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container__izquierda{
+    padding-right: 4rem;
+    margin-left: 5%;
+}
+
+.container__derecha{
+   
+   margin-right: 8rem;
+    min-width: 50%;
+    object-fit: cover;
+    max-width: 100%;
+  /* Para centrar la imagen horizontalmente en el contenedor */
+   
+}
+.cursoinformacion__titulo{
+    color: white;
+    font-size: clamp(2rem,5vw,4.5rem);
+    font-family: var(--fuente-principal);
+}
+
+.cursoinformacion__parrafo{
+    color: white;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family: var(--fuente-principal);
+}
+.cursoinformacion__lista{
+    color: white;
+    font-family: var(--fuente-principal);
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+.cursoinformacion__imagen{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 100%;
+
+    /* Haz que la imagen sea responsive */
+    height: auto;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .cursoinformacion__titulo{
+        text-align: center;
+    }
+    .cursoinformacion{
+        flex-direction: column;
+    }
+
+    .container__izquierda{
+        padding: 2rem;
+        margin-left: auto;
+    }
+    
+    .container__derecha{
+       
+       margin-right:auto;
+       
+      /* Para centrar la imagen horizontalmente en el contenedor */
+       
+    }
+
+}
+
