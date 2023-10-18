@@ -1,0 +1,85 @@
+.dirigido{
+    flex-direction: row-reverse;
+}
+
+.dirigido__derecha{
+    
+    margin-right: 5%;
+    
+}
+
+.dirigido__titulo{
+    font-size: clamp(2rem,5vw,4.5rem);
+    color: var(--color-principal-intenso);
+}
+
+.dirigido__parrafo{
+    color: black;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-family: var(--fuente-principal);
+}
+
+.dirigido__izquierda{
+    margin-right: 8rem;
+    min-width: 50%;
+    object-fit: cover;
+    max-width: 100%;
+}
+.dirigido__imagen{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    width: 100%;
+    /* Haz que la imagen sea responsive */
+    height: auto;
+}
+
+.plan-estudios{
+    margin:0;
+    background-color: var(--color-principal-intenso);
+    flex-direction: row;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+
+    .dirigido{
+      
+        flex-direction: column;
+    }
+
+    .dirigido__izquierda{
+      
+        margin-right: auto;
+        
+    }
+
+    .dirigido__derecha{
+        
+            margin-right: auto;
+            padding: 2rem;
+        
+    }
+
+    .plan-estudios{
+        flex-direction: column;
+    }
+
+
+
+    .dirigido__imagen {
+        padding-bottom: 0;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        margin: 0; /* Agrega esta línea para eliminar márgenes */
+        padding: 0; /* Agrega esta línea para eliminar relleno */
+    }
+
+    .dirigido__imagen-container{
+       line-height: 0;
+       
+    }
+
+}

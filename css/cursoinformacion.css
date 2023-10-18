@@ -1,6 +1,7 @@
 .cursoinformacion{
-    background-color: var(--color-principal-intenso);
+    background: var(--custom-gradient);
     flex-direction: row;
+    
     justify-content: space-between;
 }
 .container__izquierda{
@@ -10,7 +11,6 @@
 
 .container__derecha{
    
-   margin-right: 8rem;
     min-width: 50%;
     object-fit: cover;
     max-width: 100%;
@@ -64,6 +64,19 @@
        
       /* Para centrar la imagen horizontalmente en el contenedor */
        
+    }
+
+    .cursoinformacion__imagen{
+        padding-bottom: 0;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        margin: 0; /* Agrega esta línea para eliminar márgenes */
+        padding: 0;
+    }
+    .cursoinformacion__imagen-container{
+
+        line-height: 0;
     }
 
 }
