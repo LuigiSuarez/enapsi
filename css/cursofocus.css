@@ -100,6 +100,12 @@
     align-items: end;
 }
 
+.cursofocus__descargar:hover{
+    background-color: var(--color-secundario);
+    font-size: 1.3rem;
+    transition: 1s;
+}
+
 @media screen and (max-width: 1024px) {
     .portada{
         margin-top: 5rem;
@@ -156,10 +162,11 @@
 }
 
 .cursofocus__descargar{
+    
     margin-top: 2rem;
     text-align: center;
     align-self: flex-end;
-   width: 100%;
+    width: 100%;
     background-color: var(--color-principal-intenso);
     color: white;
     padding: 1rem;
@@ -168,5 +175,8 @@
     text-decoration: none;
     align-items: end;
 }
+
+
+
 
 }

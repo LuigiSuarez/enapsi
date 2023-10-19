@@ -42,6 +42,8 @@
 
 
 
+
+
 @media screen and (max-width: 1024px) {
 
     .dirigido{
@@ -50,7 +52,7 @@
     }
 
     .dirigido__izquierda{
-      
+        width: 100%;
         margin-right: auto;
         
     }
@@ -76,6 +78,8 @@
         margin: 0; /* Agrega esta línea para eliminar márgenes */
         padding: 0; /* Agrega esta línea para eliminar relleno */
     }
+
+   
 
     .dirigido__imagen-container{
        line-height: 0;

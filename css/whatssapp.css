@@ -16,4 +16,21 @@
 
 
 
+.descargar__brochure{
+    display: block;
+    margin-top: 2rem;
+    text-align: center;
+    background-color: var(--color-principal-intenso);
+    color: white;
+    padding: 1rem;
+    font-size: 1em;
+    border-radius: 1rem;
+    text-decoration: none;
+    
+}
 
+.descargar__brochure:hover{
+    background-color: var(--color-secundario);
+    font-size: 1.5rem;
+    transition: 1s;
+}

@@ -59,7 +59,7 @@
     }
     
     .container__derecha{
-       
+       width: 100%;
        margin-right:auto;
        
       /* Para centrar la imagen horizontalmente en el contenedor */
