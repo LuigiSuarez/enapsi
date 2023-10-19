@@ -1,28 +1,23 @@
 function scrollToSection(event) {
     event.preventDefault();
-    
-    const targetId = this.getAttribute("href").substring(1); // Obtenemos el id del objetivo sin el #
+
+    const targetHref = this.getAttribute("href");
+    const targetId = targetHref.split('#')[1];
     const targetElement = document.getElementById(targetId);
-    
+
     if (targetElement) {
-        const offset = -80; // Ajusta el valor de compensación aquí
+        const offset = -80;
         const targetPosition = targetElement.getBoundingClientRect().top + window.scrollY + offset;
-        
+
         window.scrollTo({
             top: targetPosition,
-            behavior: "smooth" // Animación de desplazamiento suave
+            behavior: "smooth"
         });
     }
 }
 
-// Agregamos el evento de clic a los enlaces del menú
+// Agrega el evento de clic a los enlaces del menú
 const menuLinks = document.querySelectorAll(".menu__item");
 menuLinks.forEach(link => {
     link.addEventListener("click", scrollToSection);
 });
-
-
-
-
-
-

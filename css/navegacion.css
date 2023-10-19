@@ -59,6 +59,10 @@
      color: var(--color-principal-intenso);
 } 
 
+.toogle__icon{
+    pointer-events: none;
+}
+
 @media screen and (max-width: 1024px) {
     .navegacion {
         background: black; /* Cambia el fondo a negro en pantallas de 1024px o menos */
